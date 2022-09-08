@@ -1,8 +1,15 @@
-#!/bin/bash
-#include <4-puts.c>
-int main() {
+#includ <studio.h>
 
-	puts("Programming is like building a multilingual puzzle");
+/**
+* main - print the string in the input function
+*
+* description: using the main function
+* this program prints "Programming is like building a multilingual puzzle"
+* return: 0
+*/
+int main(void)
+{
 
-	return 0;
+  puts("\"Programming is like building a multilingual puzzle");
+  return(0);
 }
