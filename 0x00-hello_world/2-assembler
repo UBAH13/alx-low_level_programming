@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -s $CFIL
-^c
+gcc -s $CFIL ^c
