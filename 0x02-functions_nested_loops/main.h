@@ -1,4 +1,6 @@
-#ifndef HelPERTON_H_INCLUDED
-#define HELPERTON_H_INCLUDED
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 
-int _putchar(char);
+int putchar(int c);
+
+#endif
