@@ -5,7 +5,7 @@
  *  @n: n -  Variable
  *  Return: Always 0.
  */
-void print_line(int n, int x)
+void print_line(int n)
 {
 if (n > 0)
 {
