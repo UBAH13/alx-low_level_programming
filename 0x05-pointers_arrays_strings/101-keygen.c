@@ -7,22 +7,21 @@
  */
 int main(void)
 {
-char a[100];
-int r, n, i;
-n = 0;
+int sum, i, r;
+char decode[27] = "abcdefghijklmnopqrstuvwxyz";
+char key[30];
+sum = 0;
 i = 0;
 srand(time(NULL));
-while (n < 2645)
+while (sum < 2772)
 {
-r = rand() % 122;
-if (r > 32)
-{
-a[i++] = r;
-n += r;
+r = rand() % 10;
+key[i] = decode[r];
+sum += key[i];
+i++;
 }
-}
-a[i++] = (2772 - n);
-a[i] = '\0';
-printf("%s", a);
+r = 2772 - sum;
+key[i] = r;
+printf("%s\n",  key);
 return (0);
 }
