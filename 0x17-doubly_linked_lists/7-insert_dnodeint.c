@@ -28,7 +28,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	/* search of position to insert */
 	index = idx - 1;
-	while 
+	while
 		(aux_node && cont != index)
 	{
 		cont++;

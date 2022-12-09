@@ -1,7 +1,4 @@
 Write a function that prints all the elements of a dlistint_t list
-Requirements
-
-General
 
 Allowed editors: vi, vim, emacs
 
